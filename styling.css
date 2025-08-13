@@ -27,6 +27,7 @@
   width: 50px;
   margin-right: auto;
   position: relative;
+  cursor: pointer;
 }
 
 .bar1, .bar2, .bar3 {
@@ -153,3 +154,4 @@
   font-size: 18px;
   font-family: Sansation;
 }
+
