@@ -15,6 +15,11 @@
   transition: .3s ease;
 }
 
+li {
+  list-style: none;
+  margin-top: 10px;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -144,6 +149,7 @@ a {
   font-size: 18px;
   font-family: Sansation;
 }
+
 
 
 
