@@ -2,10 +2,10 @@
   background-color: rgb(255, 255, 255, 0.1);
   height: 100vh;
   width: 100%;
-  max-width: 450px;
+  max-width: 330px;
   position: fixed;
   top: 0;
-  right: -450px;
+  right: -330px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -137,5 +137,6 @@
   font-size: 18px;
   font-family: Sansation;
 }
+
 
 
