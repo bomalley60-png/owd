@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Contact</title>
+<link rel="icon" type="image/x-icon" href="images/Favicon Transparent.ico">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styling.css">
+
+<style>
+
+.contact_form{
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border: outset;
+  border-width: 5px;
+  width: 1000px;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact_head{
+    font-size: 50px;
+  font-family: Sansation;
+  margin-bottom: 20px;
+}
+
+.name_input{
+  height: 80px;
+  padding-top: 20px;
+}
+
+.email_input{
+  height: 80px;
+}
+
+.message_input{
+  height: 180px;
+}
+
+.n_input{
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Sansation;
+}
+
+.e_input{
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Sansation;
+}
+
+.m_input{
+  width: 500px;
+  height: 150px;
+  text-align: start;
+  font-size: 28px;
+  font-family: Sansation;
+}
+
+.submit_button{
+  width: 250px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+      font-size: 40px;
+  font-family: Sansation;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.email_icon{
+  width: 55px;
+}
+
+.email{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 0px;
+}
+
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+    <div class="off_screen_menu">
+    <ul>
+      <li>Home</li>
+      <li>Portfolio</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  <div class="hamburger" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+
+  </div>
+
+  </div>
+
+  <div class="container">
+
+
+  </div>
+
+  <div class="logo">
+    <img class="logo_image" src="images/Grayscale Transparent.png">
+  </div>
+
+  <div class="email">
+  <a href="mailto:info@omalleywebdesign.ca"> <img class="email_icon" src="icons/resume-email-icon-10.jpg"></a>
+  </div>
+
+  <div class="contact_form">
+
+    <p class="contact_head">Contact Me</p>
+
+  <form action="https://api.web3forms.com/submit" method="POST">
+
+    
+    <input type="hidden" name="access_key" value="f0b890e0-709d-4043-b1b3-cf770becc2f6">
+
+    <div class="name_input">
+      <input class="n_input" type="text" placeholder="Full Name" name="name" required>
+    </div>
+    <div class="email_input">
+      <input class="e_input" type="email" placeholder="Email" name="email" required>
+    </div>
+    <div class="message_input">
+      <textarea class="m_input" name="message" placeholder="How can I help?" required></textarea>
+    </div>
+
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+    <button class="submit_button" type="submit">Submit</button>
+
+</form>
+
+</div>
+
+  <script src="JSsheet.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
