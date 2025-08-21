@@ -15,6 +15,13 @@
   transition: .3s ease;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Sansation;
+  
+}
+
 .off_screen_menu.active{
   left: 0;
   background-color: rgb(255, 255, 255, 0.01);
@@ -137,6 +144,7 @@
   font-size: 18px;
   font-family: Sansation;
 }
+
 
 
 
