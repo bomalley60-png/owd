@@ -27,6 +27,8 @@
   width: 50px;
   margin-right: auto;
   position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
   cursor: pointer;
 }
 
@@ -62,25 +64,6 @@
     text-align: center;
     margin-bottom: 0px;
     border-bottom: 10px;
-  }
-
-  .contact_buttons{
-    text-align: center;
-    margin-top: 0px;
-  }
-
-  .email_icon{
-    width: 40px;
-    border-radius: 100px;
-  }
-
-  .email_button{
-    border-radius: 50px;
-    border: none;
-  }
-
-  .email_button:hover{
-    cursor: pointer;
   }
 
   .intro{
@@ -154,4 +137,5 @@
   font-size: 18px;
   font-family: Sansation;
 }
+
 
